@@ -1,21 +1,40 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace PruebaEntityFramerok.Models{    
-      
-        public class HckPersona       
-        {
-            
-            public string Cedula { get; set; }            
-            public string Nombres { get; set; }           
-            public string Apellidos { get; set; }            
-            public string Ciudadania { get; set; }            
-            public DateTime? FechaNacimiento { get; set; }           
-            public string EstadoCivil { get; set; }           
-            public string Profesion { get; set; }       
-            public string NivelEstudios { get; set; }            
-            public int? EsCliente { get; set; }
-            public string TipoPersona { get; set; }
-        }
+namespace PruebaEntityFramerok.Models{
+
+    [Table("HCK_PERSONAS")]
+    public class HckPersona
+    {
+        [Column("CEDULA")]
+        public string Cedula { get; set; }
+
+        [Column("NOMBRES")]
+        public string Nombres { get; set; }
+
+        [Column("APELLIDOS")]
+        public string Apellidos { get; set; }
+
+        [Column("CIUDADANIA")]
+        public string Ciudadania { get; set; }
+
+        [Column("FECHA_NACIMIENTO")]
+        public DateTime FechaNacimiento { get; set; }
+
+        [Column("ESTADO_CIVIL")]
+        public string EstadoCivil { get; set; }
+
+        [Column("PROFESION")]
+        public string Profesion { get; set; }
+
+        [Column("NIVEL_ESTUDIOS")]
+        public string NivelEstudios { get; set; }
+
+        [Column("ES_CLIENTE")]
+        public int EsCliente { get; set; }
+
+        [Column("TIPO_PERSONA")]
+        public string TipoPersona { get; set; }
     }
+}
 
