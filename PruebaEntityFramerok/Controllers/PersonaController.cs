@@ -11,9 +11,12 @@ namespace PruebaEntityFramerok.Controllers
             this.persona = _persona;
         }
         [HttpGet("ObtenerPersonas")]
-        public ActionResult ObtenerEstudiantes()
+        public async Task<IActionResult> ObtenerEstudiantes()
         {
-            return new JsonResult(persona.ObtenerPersona());
+            var resultado = await persona.ObtenerPersona();
+            return Ok(resultado);
+
+            //return new JsonResult(persona.ObtenerPersona());
         }
     }
 }

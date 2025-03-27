@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\is-arequelme\\source\\repos\\PruebaEntityFramerok\\PruebaEntityFramerok\\PruebaEntityFramerok.csproj": {}
+    "C:\\Users\\is-arequelme\\source\\repos\\git\\EntityFramworkPrueba\\PruebaEntityFramerok\\PruebaEntityFramerok.csproj": {}
   },
   "projects": {
-    "C:\\Users\\is-arequelme\\source\\repos\\PruebaEntityFramerok\\PruebaEntityFramerok\\PruebaEntityFramerok.csproj": {
+    "C:\\Users\\is-arequelme\\source\\repos\\git\\EntityFramworkPrueba\\PruebaEntityFramerok\\PruebaEntityFramerok.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\is-arequelme\\source\\repos\\PruebaEntityFramerok\\PruebaEntityFramerok\\PruebaEntityFramerok.csproj",
+        "projectUniqueName": "C:\\Users\\is-arequelme\\source\\repos\\git\\EntityFramworkPrueba\\PruebaEntityFramerok\\PruebaEntityFramerok.csproj",
         "projectName": "PruebaEntityFramerok",
-        "projectPath": "C:\\Users\\is-arequelme\\source\\repos\\PruebaEntityFramerok\\PruebaEntityFramerok\\PruebaEntityFramerok.csproj",
+        "projectPath": "C:\\Users\\is-arequelme\\source\\repos\\git\\EntityFramworkPrueba\\PruebaEntityFramerok\\PruebaEntityFramerok.csproj",
         "packagesPath": "C:\\Users\\is-arequelme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\is-arequelme\\source\\repos\\PruebaEntityFramerok\\PruebaEntityFramerok\\obj\\",
+        "outputPath": "C:\\Users\\is-arequelme\\source\\repos\\git\\EntityFramworkPrueba\\PruebaEntityFramerok\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

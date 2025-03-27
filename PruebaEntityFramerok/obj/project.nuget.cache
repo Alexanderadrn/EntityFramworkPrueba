@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x2KOOJF8+ouEeqzTYwOEq5I6C9sInQ+VcwRGGnpeEoidy28NvCWQ3SwXlVa74remQ9mLGmCsxjlJQZY5Rt8V9w==",
+  "dgSpecHash": "pzpbh7ctzPmIwEnsuVrNWXoS/f5MJqzWK3Fhj2S6BKGuVI3RRrUx/ZEpnbI9QckAXmUa/qPxBF/nkchdHfFNTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\is-arequelme\\source\\repos\\PruebaEntityFramerok\\PruebaEntityFramerok\\PruebaEntityFramerok.csproj",
+  "projectFilePath": "C:\\Users\\is-arequelme\\source\\repos\\git\\EntityFramworkPrueba\\PruebaEntityFramerok\\PruebaEntityFramerok.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\is-arequelme\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\is-arequelme\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

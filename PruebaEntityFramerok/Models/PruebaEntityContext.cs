@@ -11,7 +11,7 @@ namespace PruebaEntityFramerok.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<HckPersona>().ToTable("HCK_PERSONAS");
+            modelBuilder.Entity<HckPersona>().HasNoKey();
         }
 
     }
