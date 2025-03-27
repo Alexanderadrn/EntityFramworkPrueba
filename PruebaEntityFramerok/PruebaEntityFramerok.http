@@ -1,0 +1,6 @@
+@PruebaEntityFramerok_HostAddress = http://localhost:5248
+
+GET {{PruebaEntityFramerok_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
