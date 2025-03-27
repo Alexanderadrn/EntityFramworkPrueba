@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PruebaEntityFramerok")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d235621b54258545042b73a04839b7f7dbc6e2c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4519f2a329a685e704aec06e59ee5af845232109")]
 [assembly: System.Reflection.AssemblyProductAttribute("PruebaEntityFramerok")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PruebaEntityFramerok")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
