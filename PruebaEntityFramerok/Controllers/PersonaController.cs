@@ -12,11 +12,11 @@ namespace PruebaEntityFramerok.Controllers
             this.persona = _persona;
         }
 
-        [HttpGet("ObtenerPersonas")]
-        public async Task<IActionResult> ObtenerEstudiantes([FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 1000)
+        [HttpGet("ObtenerPersonasEntity")]
+        public async Task<IActionResult> ObtenerEstudiantes([FromQuery] string cedula)
         {
 
-            var resultado = await persona.ObtenerPersona(pageNumber,pageSize);
+            var resultado = await persona.ObtenerPersona(cedula);
             return Ok(resultado);
 
             //return new JsonResult(persona.ObtenerPersona());
